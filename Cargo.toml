@@ -1,0 +1,5 @@
+[workspace]
+members = ["core", "counter"]
+
+[workspace.dependencies]
+apq-core = { path = "core" }
