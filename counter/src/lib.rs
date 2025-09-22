@@ -56,7 +56,6 @@ impl FromBytes for CounterSyncIx {
         Ok(unsafe { &*ix.as_ptr().cast::<CounterSyncIx>() })
     }
 
-    /// copy pasted zc but made mut
     fn from_bytes_mut<'a>(_bytes: &'a mut [u8]) -> Result<&'a mut Self, ProgramError> {
         unimplemented!("unused in this program")
     }
