@@ -1,4 +1,5 @@
 #![allow(unexpected_cfgs)]
+#![feature(split_at_checked)]
 
 use std::{
     hint::black_box,
