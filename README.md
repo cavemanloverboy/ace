@@ -4,7 +4,7 @@ This repository has a template for asynchronous solana programs capable of suppo
 
 The `core` crate has the traits, and `counter` has an example implementor where decrements are prioritized before increments.
 
-Run `cargo run --example counter` from the `counter` directory after building the program with `cargo-build-sbf` to see it in action.
+Run `rustup default nightly && cargo build-sbf && cargo run --example counter` to see it in action.
 
 
 # Disclaimer
