@@ -27,7 +27,7 @@ fn main() {
         .with_transaction_history(50);
 
     // Load program
-    let path = Path::new("../target/deploy/counter.so");
+    let path = Path::new("./target/deploy/counter.so");
     println!(
         "Loading program from: {} (exists: {})",
         path.display(),
